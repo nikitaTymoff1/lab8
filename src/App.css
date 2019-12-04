@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #5E5E5E;
+  font-size: .8rem;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  background: #EBEDEE;
+}
+
+nav {
+  width: 100%;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+a {
+  color: #5773D3;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+hr {
+  width: calc(100% + 110px);
+  border: 1px solid #5773D3;
+  margin-left: -55px;
+  margin-bottom: 28px;
+  margin-top: 28px;
+}
+
+.admin-menu-dots {
+  height: 100%;
+  padding: 20px;
+}
+
+.sidebar span {
+  font-size: 1.4rem;
+  margin-right: 4px;
+  width: 24px;
+}
+
+h3 {
+  margin: 40px 0;
+  text-align: center;
+  color: #3F3F3F;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.assessment-tables td:last-child:hover {
+  background-color: transparent;
+  color: #3F3F3F;
+}
+
+.assessment-tables {
+  display: flex;
+  flex-direction: column;
+}
+
+.assessment-tables h3 {
+  margin: 20px 40px 0 0;
+}
+
+.rating {
+  width: 500px;
+  height: 272px;
+  background-color: #fff;
+}
+
+.table-block {
+  margin: 0 40px;
+}
+
+h1, h5 {
+  color: #3F3F3F;
+}
+
+h5 {
+  padding: 3px 0;
+}
+
+h2 {
+  color: #5773D3;
+}
+
+/* .button-custom {
+   background-color: #3F3F3F;
+   color: white;
+   border-radius: 5px;
+   width: 65px;
+   cursor: pointer;
+   text-transform: uppercase;
+}
+
+.button-custom:hover {
+   background-color: #5d95fb;
+} */
+
+.input-custom {
+  border-radius: 2px;
+  border: 1px solid #3F3F3F;
+  padding: 2px 4px;
+}
+
+.assessment-tables {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-block-pad {
+  width: auto;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.active_assessments {
+  width: 900px;
+}
+
+.active_assessments .table-block td  {
+  padding: 10px 15px;
+}
