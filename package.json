@@ -33,6 +33,6 @@
   },
   "devDependencies": {
     "cors": "^2.8.5",
-    "sequelize": "^5.21.2"
+    "sequelize": "^6.28.2"
   }
 }
